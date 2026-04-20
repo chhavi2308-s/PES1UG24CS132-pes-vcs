@@ -1,8 +1,6 @@
 # PES-VCS Lab Report
-**Name:** Gagan  
-**SRN:** PES1UG24CS166  
-**Repository:** [PES1UG24CS166-pes-vcs](https://github.com/Gagancreates/PES1UG24CS166-pes-vcs)
-
+**Name:** Chhavi S Wadhwa  
+**SRN:** PES1UG24CS132 
 ---
 
 ## Phase 1: Object Storage Foundation
