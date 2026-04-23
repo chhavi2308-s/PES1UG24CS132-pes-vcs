@@ -18,15 +18,13 @@ PASS: deduplication
 PASS: integrity check
 All Phase 1 tests passed.
 ```
-*(Insert screenshot here)*
+<img width="941" height="187" alt="image" src="https://github.com/user-attachments/assets/5622527c-3295-412e-929f-f62a3981538a" />
 
 ### Screenshot 1B — Sharded object store
 ```
 find .pes/objects -type f
 ```
-*(Insert screenshot here)*
-
----
+<img width="937" height="89" alt="image" src="https://github.com/user-attachments/assets/ab7b697b-3d43-4b32-912a-e8bb5c41493b" />
 
 ## Phase 2: Tree Objects
 
@@ -41,16 +39,14 @@ PASS: tree deterministic serialization
 
 All Phase 2 tests passed.
 ```
-*(Insert screenshot here)*
+<img width="931" height="132" alt="image" src="https://github.com/user-attachments/assets/76245791-f2da-4f73-84a9-3bf9848fad0f" />
 
 ### Screenshot 2B — Raw binary tree object
 ```
 xxd .pes/objects/2c/f8d83d9ee29543b34a87727421fdecb7e3f3a183d337639025de576db9ebb4
 00000000: 626c 6f62 2036 0068 656c 6c6f 0a         blob 6.hello.
 ```
-*(Insert screenshot here)*
-
----
+<img width="944" height="59" alt="image" src="https://github.com/user-attachments/assets/d6695b2d-a3d4-404a-bac5-6cf50ec688aa" />
 
 ## Phase 3: The Index (Staging Area)
 
@@ -74,16 +70,14 @@ Unstaged changes:
 Untracked files:
   ...
 ```
-*(Insert screenshot here)*
+<img width="917" height="551" alt="image" src="https://github.com/user-attachments/assets/3686a6fc-dae2-47da-ba58-e8a5d0f86b44" />
 
 ### Screenshot 3B — `cat .pes/index`
 ```
 100755 2cf8d83d9ee29543b34a87727421fdecb7e3f3a183d337639025de576db9ebb4 1776660272 6 file1.txt
 100755 e00c50e16a2df38f8d6bf809e181ad0248da6e6719f35f9f7e65d6f606199f7f 1776660277 6 file2.txt
 ```
-*(Insert screenshot here)*
-
----
+<img width="916" height="72" alt="image" src="https://github.com/user-attachments/assets/ed684fdd-4e7d-4b0e-a00b-3b4258e18841" />
 
 ## Phase 4: Commits and History
 
@@ -110,10 +104,10 @@ Date:   1776660832
 
     Initial commit
 ```
-*(Insert screenshot here)*
+<img width="906" height="333" alt="image" src="https://github.com/user-attachments/assets/ed110aa0-8a98-4c63-8482-5c35f0d2e161" />
 
 ### Screenshot 4B — `find .pes -type f | sort`
-*(Insert screenshot here)*
+<img width="954" height="310" alt="image" src="https://github.com/user-attachments/assets/44931f41-8cb5-465a-90a6-71262a922cb5" />
 
 ### Screenshot 4C — HEAD and branch reference
 ```
@@ -123,13 +117,14 @@ fe2f9b01fb7cb9e37f1a95366e5e572b830b053bce2c65c4f6dc49f684039138
 cat .pes/HEAD
 ref: refs/heads/main
 ```
-*(Insert screenshot here)*
+<img width="646" height="71" alt="image" src="https://github.com/user-attachments/assets/80059e49-b2d1-4893-8746-db8308da8243" />
 
 ### Final — Integration test
 ```
 make test-integration
 ```
-*(Insert screenshot here)*
+<img width="612" height="494" alt="image" src="https://github.com/user-attachments/assets/5bac5e36-1531-4e54-bc7e-7a805c6c19a3" />
+<img width="518" height="629" alt="image" src="https://github.com/user-attachments/assets/24086dc4-0b2a-47ec-a051-b00ba5cd5dfa" />
 
 ---
 
